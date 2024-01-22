@@ -38,5 +38,91 @@
       };
     </script>
   </head>
-  <body></body>
+  <body class="font-gramond">
+    <header>
+        <!-- Navbar Section -->
+        <nav>
+            <div class="container mx-auto">
+                <div class="navbar bg-base-100">
+                    <div class="navbar-start">
+                      <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </div>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                          <li><a>Home</a></li>
+                          <li><a>Services</a></li>
+                          <li><a>Cases</a></li>
+                          <li><a>Blog</a></li>
+                          <li><a>Contact Us</a></li>
+                        </ul>
+                      </div>
+                      <div class="hover:bg-gray-300 rounded-lg p-2">
+                        <button class="flex">
+                            <a class="flex items-center gap-3" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 45 45" fill="none" class="w-[30px] h-[30px] md:w-[40px] md:h-[40px]">
+                                    <path d="M19.7224 14.1357L30.0959 3.84753L40.7683 14.5199L30.4375 24.808L19.7224 14.1357Z" fill="#B68C5A"/>
+                                    <path d="M18.8687 12.4708C18.2283 13.1111 17.2038 13.1111 16.6061 12.4708L16.5208 12.3854C15.9231 11.7878 15.9658 10.934 16.4354 10.2509C18.954 6.28084 23.223 2.09729 26.4247 0.304336C27.1504 -0.0798678 27.9615 -0.165247 28.5591 0.432403L28.6872 0.560471C29.2849 1.15812 29.2849 2.18266 28.6872 2.78031L18.8687 12.4708Z" fill="#B68C5A"/>
+                                    <path d="M32.0597 25.7045C31.4193 26.3448 31.4193 27.3267 32.0597 27.967L32.145 28.0524C32.7427 28.65 33.5965 28.6073 34.2795 28.1804C38.2923 25.6618 42.5185 21.4355 44.3115 18.2338C44.6957 17.5081 44.7811 16.697 44.1834 16.0994L44.0553 15.9713C43.4577 15.3737 42.4332 15.331 41.7928 15.9713L32.0597 25.7045Z" fill="#B68C5A"/>
+                                    <path d="M1.23799 43.1644C1.02454 43.079 0.939164 42.8229 0.768407 42.6948C0.256135 42.0118 0 41.158 0 40.3042C0.0426893 39.237 0.469582 38.2551 1.28068 37.5294L22.1557 19.173L23.7779 20.7525L25.3574 22.3747L6.87297 43.1217C6.14726 43.8901 5.1654 44.3597 4.09817 44.4024C3.24439 44.4024 2.3906 44.1462 1.70757 43.634C1.53681 43.4632 1.32337 43.3778 1.23799 43.1644Z" fill="#B68C5A"/>
+                                    <path d="M19.2102 36.761L18.0149 38.127V39.5358H16.905L15.4109 41.0299V45H43.8846V41.0299L42.3478 39.5358H41.2379V38.127L40.0426 36.761H19.2102Z" fill="#B68C5A"/>
+                                  </svg>
+                            <h2 class="font-extrabold text-2xl md:text-3xl text-[#414040]">Justice</h2>
+                            </a>
+                        </button>
+                        <!-- <a class="btn btn-ghost text-xl flex justify-start"><img src="./images/logo.png" alt="">Justice</a> -->
+                      </div>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                      <ul class="menu menu-horizontal px-1 font-poppins flex items-end text-[#707070]">
+                        <li><a>Home</a></li>
+                        <!-- <li>
+                          <details>
+                            <summary>Parent</summary>
+                            <ul class="p-2">
+                              <li><a>Submenu 1</a></li>
+                              <li><a>Submenu 2</a></li>
+                            </ul>
+                          </details>
+                        </li> -->
+                        <li><a>Services</a></li>
+                        <h4 class="text-2xl font-light -ml-2">></h4>
+                        <li><a>Cases</a></li>
+                        <h4 class="text-2xl font-light -ml-2">></h4>
+                        <li><a>Blog</a></li>
+                        <h4 class="text-2xl font-light -ml-2">></h4>
+                        <li><a>Contact Us</a></li>
+                      </ul>
+                    </div>
+                    <div class="navbar-end hidden md:flex">
+                      <a class="btn bg-legalprimary text-white text-lg font-semibold font-poppins">Free Consultation</a>
+                    </div>
+                    <div class="navbar-end flex md:hidden">
+                      <a class="btn bg-legalprimary text-white text-sm font-semibold font-poppins">Consultation</a>
+                    </div>
+                  </div>
+            </div>
+        </nav>
+        <!-- Banner Section -->
+        <section class="container mx-auto">
+            <div class="bg-[linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.25)),url('./images/banner.png')] h-[550px] bg-cover bg-center rounded-xl flex justify-center">
+                <div class="flex flex-col justify-center items-center text-center">
+                    <h2 class="font-extrabold text-3xl md:text-7xl text-white w-3/5">We Provide Effective Legal Solutions</h2>
+                    <p class="font-poppins text-white w-3/5 mt-5 text-sm md:text-base">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <div class="font-poppins mt-5 w-3/5 flex flex-col md:flex-row gap-3">
+                        <input type="text" placeholder="Search your Services" class="px-4 pr-72 py-3 rounded-lg">
+                        <button class="px-6 py-3 bg-legalprimary rounded-lg text-white">Search</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+  </body>
 </html>
